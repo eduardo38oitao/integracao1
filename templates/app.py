@@ -54,3 +54,6 @@ def criarCadastro():
         # Decorador tem @
     except mysql.connector.Error as err:
         return f"Erro ao gravar no banco: {err}"
+    
+if __name__ == '__main__':
+    app.run(debug= True)
